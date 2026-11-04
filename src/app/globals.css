@@ -2,14 +2,16 @@
 
 /* Cores vêm de src/config/identidade.ts e são aplicadas no layout. */
 :root {
-  --cor-principal: #1f3a5f;
-  --cor-secundaria: #f4f1ea;
+  --cor-principal: #c8102e;
+  --cor-secundaria: #fff8d6;
+  --cor-destaque: #1e4fa3;
   --cor-texto: #1a1a1a;
 }
 
 @theme inline {
   --color-principal: var(--cor-principal);
   --color-secundaria: var(--cor-secundaria);
+  --color-destaque: var(--cor-destaque);
 }
 
 html,
